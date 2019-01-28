@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+
+# dirs
+data_set/
+drive-download-20190124T190738Z-001/
+tutorials/
+
+# local
+snorkel.db
+Untitled.ipynb
+
