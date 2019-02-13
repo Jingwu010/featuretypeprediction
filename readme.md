@@ -204,3 +204,28 @@ def LF1:
 | 65  	| Context_specific            	| z                                          	|
 | 175 	| Usable directly categorical 	| zip                                        	|
 | 722 	| Usable directly categorical 	| zip_code                                   	|
+
+---
+
+**2/13**:
+
+ + Get to know to snorkel takes in labeling function matrix
+
+ + Writing labeling functions **Usable with extraction**
+
+   | LF                           | RESULTS                        | Explanations                                               |
+   | ---------------------------- | ------------------------------ | ---------------------------------------------------------- |
+   | lf_date_extraction_name      | [  6.,  21., 149.,  12.,   1.] | datetime, time, date in name                               |
+   | lf_date_extraction_samples   | [  5.,   0., 187.,   8.,  16.] | samples in datetime format                                 |
+   | lf_extractable_name          | [ 51.,  16., 122.,  32.,   8.] | url, comment etc. in name                                  |
+   | lf_extractable_list          | [ 2.,  3., 26.,  5.,  0.]      | samples with list, dict, format                            |
+   | lf_extractable_sample_length | [123.,   3., 274.,  37.,  57.] | samples with long length                                   |
+   | lf_extractable_units         | [1., 0., 3., 0., 0.]           | samples in (unit) num, unit format                         |
+   | lf_extractable_number_sci    | [1., 1., 0., 0., 0.]           | samples with scientific rep                                |
+   | lf_extractable_pattern       | [25.,  1., 78., 14., 14.]      | samples where texts follow pattern while differ in numbers |
+
+ + Q: a lF only produces one category or none?
+
+ + TODO: Write more labeling functions
+
+ + TODO: Feed m*n data into snorkel

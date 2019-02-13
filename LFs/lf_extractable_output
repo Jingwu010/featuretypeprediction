@@ -1,0 +1,312 @@
+add_these_pw_job_title_9089 	 1
+agent_firm_name 	 5
+employer_decl_info_title 	 1
+employer_name 	 5
+foreign_worker_info_inst 	 5
+job_info_alt_occ_job_title 	 1
+job_info_job_title 	 1
+naics_2007_us_title 	 1
+naics_title 	 1
+naics_us_title 	 1
+naics_us_title_2007 	 1
+preparer_info_title 	 1
+pw_job_title_908 	 1
+pw_job_title_9089 	 1
+pw_soc_title 	 1
+pw_source_name_other_9089 	 5
+name 	 4
+url 	 4
+positionText 	 2
+positionText 	 2
+positionText 	 2
+r.sourceID 	 5
+labels(n) 	 4
+n.sourceID 	 5
+n.jurisdiction_description 	 4
+n.note 	 4
+labels(n) 	 4
+n.sourceID 	 5
+n.jurisdiction_description 	 1
+n.company_type 	 4
+n.note 	 4
+labels(n) 	 4
+n.sourceID 	 5
+n.address 	 4
+n.name 	 5
+n.jurisdiction_description 	 4
+n.note 	 4
+labels(n) 	 4
+n.sourceID 	 5
+n.address 	 4
+n.jurisdiction_description 	 4
+labels(n) 	 4
+n.valid_until 	 4
+n.address 	 4
+n.jurisdiction_description 	 4
+n.note 	 4
+LOCATION 	 2
+System of National Accounts 	 1
+Government Accounting concept 	 1
+IMF data dissemination standard 	 1
+Source of most recent Income and expenditure data 	 1
+Vital registration complete 	 1
+Indicator Name 	 4
+Unit of measure 	 1
+Other notes 	 4
+Related source links 	 4
+LIBGEO 	 5
+LIBGEO 	 5
+contentId 	 5
+contentType 	 1
+contentId 	 5
+NOME_CANDIDATO 	 5
+constraint1 	 1
+Locality 	 5
+IdentificationQualifier 	 1
+SocSecCovered_verbatim 	 1
+CostStructure 	 1
+ReportingDateNotes 	 1
+AssetValMeth_GASB 	 1
+ActCostMeth_note 	 4
+FundingMeth_note 	 4
+source_ActCosts 	 1
+PlanFullName 	 5
+EmployeeTypeCovered 	 1
+SocSecCovered_verbatim 	 1
+CostStructure 	 1
+BenefitsWebsite 	 5
+ReportingDateNotes 	 1
+AssetValMeth_GASB 	 1
+ActCostMeth_note 	 4
+FundingMeth_note 	 4
+Breed_Description 	 1
+Status_Description 	 1
+Breed_Description_primary 	 1
+Breed_Description_secondary 	 1
+Status_Description 	 1
+original_title 	 5
+title 	 5
+work_text_reviews_count 	 2
+HistDist 	 5
+HistDist 	 5
+HistDist 	 5
+HistDist 	 5
+HistDist 	 5
+orchestra 	 1
+movement 	 1
+id 	 5
+DataValueFootnoteSymbol 	 5
+DatavalueFootnote 	 1
+Description 	 4
+Notes and coin in circulation 	 2
+id 	 5
+id 	 5
+orchestra 	 1
+orchestra 	 1
+id 	 5
+orchestra 	 1
+purchaser_type_name 	 1
+quantity_footnotes 	 4
+Number of Reviews 	 2
+number_of_reviews 	 2
+Review_Total_Negative_Word_Counts 	 2
+Total_Number_of_Reviews 	 2
+Review_Total_Positive_Word_Counts 	 2
+Total_Number_of_Reviews_Reviewer_Has_Given 	 2
+Reviewer_Score 	 2
+co_applicant_race_name_2 	 1
+applicant_race_name_3 	 1
+group.name 	 5
+Reviewer_Nationality 	 1
+property_type_name 	 1
+preapproval_name 	 1
+owner_occupancy_name 	 1
+co_applicant_sex_name 	 1
+co_applicant_race_name_1 	 1
+co_applicant_ethnicity_name 	 1
+applicant_sex_name 	 1
+applicant_race_name_1 	 1
+applicant_ethnicity_name 	 1
+agency_name 	 5
+action_taken_name 	 1
+category 	 1
+average_review_rating 	 2
+group.urlname 	 1
+japanese_name 	 4
+uniq_id 	 4
+fee.description 	 4
+photo_url 	 4
+urlkey 	 4
+user_id 	 5
+trackable_name 	 1
+Household Head Highest Grade Completed 	 1
+Household Head Occupation 	 1
+Household Head Class of Worker 	 1
+Type of Household 	 1
+Type of Building/House 	 1
+Type of Roof 	 1
+Tenure Status 	 1
+Toilet Facilities 	 1
+Main Source of Water Supply 	 1
+category 	 1
+description 	 4
+jsondata 	 1
+markup_description 	 4
+RegAddressPostCode 	 1
+Description 	 4
+Project Name 	 1
+Procurement Method 	 1
+Major Sector 	 1
+Supplier 	 5
+name 	 4
+keywords 	 4
+keywords 	 4
+ceremony 	 1
+voter 	 5
+job_title 	 1
+uniq_id 	 4
+title 	 4
+image_url 	 5
+video_url 	 5
+job_title 	 1
+install_size_kw_buckets 	 2
+venue 	 5
+GICS Sub Industry 	 1
+location 	 2
+permit_notes 	 5
+NAME 	 5
+NAME 	 5
+NAME 	 5
+NAME 	 5
+NAME 	 5
+NAME 	 5
+CLNDISDB 	 5
+CLNDISDBINCL 	 5
+CLNDN 	 5
+CLNDNINCL 	 5
+CLNVI 	 5
+MC 	 5
+Consequence 	 1
+label 	 1
+label 	 1
+label 	 1
+label 	 1
+label 	 1
+label 	 1
+label 	 1
+label 	 1
+Existing Construction Type Description 	 1
+Proposed Construction Type Description 	 1
+q17HirChaNotEnoughTalent 	 1
+q21CoreCompCodeReview 	 1
+q17HirChaNotEnoughTalent 	 4
+q21CoreCompCodeReview 	 4
+URL_LENGTH 	 2
+CONTENT_LENGTH 	 2
+INSPECTION TYPE 	 1
+Series Name 	 1
+Series Name 	 1
+q4Education 	 1
+CUISINE DESCRIPTION 	 1
+Field.Partner.Name 	 5
+Indicator Name 	 4
+Long definition 	 4
+Source 	 4
+Indicator Name 	 4
+Long definition 	 4
+Source 	 4
+INDICATOR_NAME 	 4
+SOURCE_NOTE 	 4
+SOURCE_ORGANIZATION 	 4
+Indicator Name 	 4
+q6LearnCodeAccelTrain 	 4
+q6LearnCodeDontKnowHowToYet 	 4
+q30LearnCodeOnlineTutorial 	 4
+URL 	 4
+TeamName 	 5
+geocode 	 1
+name 	 5
+designation 	 5
+ACTOR1 	 1
+ACTOR2 	 1
+Field Partner Name 	 5
+Name 	 5
+ALLY_ACTOR_1 	 5
+ALLY_ACTOR_2 	 5
+url 	 4
+comments 	 2
+review_type 	 1
+item 	 1
+category 	 1
+item 	 1
+category 	 1
+item 	 1
+category 	 1
+item 	 1
+category 	 1
+item 	 4
+item 	 4
+category 	 1
+item 	 1
+category 	 1
+item 	 1
+category 	 1
+category 	 1
+item 	 4
+category 	 4
+item 	 4
+sub_group 	 4
+item 	 1
+value_footnotes 	 1
+category 	 1
+value_footnotes 	 1
+category 	 1
+sub_group 	 1
+item 	 1
+value_footnotes 	 1
+category 	 1
+sub_group 	 1
+item 	 1
+value_footnotes 	 1
+category 	 1
+sub_group 	 1
+value_footnotes 	 1
+category 	 1
+value_footnotes 	 1
+category 	 1
+item 	 1
+value_footnotes 	 1
+category 	 1
+sna93_table_code 	 1
+item 	 1
+value_footnotes 	 1
+category 	 1
+sub_item 	 1
+fiscal_year_type 	 1
+value_footnotes 	 1
+category 	 1
+sub_group 	 1
+value_footnotes 	 1
+category 	 1
+sub_group 	 1
+value_footnotes 	 1
+category 	 1
+item 	 1
+value_footnotes 	 1
+category 	 1
+end_station_name 	 5
+Sub-Acquisition Method 	 1
+Department Name 	 1
+Item Description 	 1
+Commodity Title 	 1
+Class Title 	 1
+Family Title 	 1
+Segment Title 	 1
+Con 	 1
+Agt 	 1
+Status 	 1
+uniq_id 	 4
+name 	 5
+group_urlname 	 4
+name 	 5
+[163.  19. 307.  67.  62.]
