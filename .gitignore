@@ -4,8 +4,12 @@
 data_set/
 drive-download-20190124T190738Z-001/
 tutorials/
+data/
+lfs/__pycache__/
 
 # local
 snorkel.db
 Untitled.ipynb
 
+# backup
+backup/

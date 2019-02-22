@@ -1,0 +1,300 @@
+,y_act,Reason,Attribute_name,Total_val,num of dist_val,% nans,max_val,mean,min_val,std_dev,sample_1,sample_2,sample_3,sample_4,sample_5
+36,Usable Directly Categorical,j,employer_phone,374362.0,49220.0,36.14282433,0.0,0.0,0.0,0.0,,2625444811.0,662-254-7200,720-859-6111,206 391 7466
+37,Usable Directly Categorical,j,employer_phone_ext,374362.0,2670.0,93.7330712,0.0,0.0,0.0,0.0,,7000.0,150,8745,11
+40,Usable Directly Categorical,i,employer_yr_estab,374362.0,262.0,36.16926932,2016.0,1984.208267,0.0,38.47047443,,1959.0,1988,1996,2010
+117,Usable Directly Categorical,i,pw_track_num,374362.0,171774.0,36.65623113,0.0,0.0,0.0,0.0,,P10013226788912,P10013249777836,P100131960847,p10013220035940
+173,Usable Directly Categorical,f,location,73.0,70.0,0.0,0.0,0.0,0.0,0.0,Melbourne,Kuala Lumpur,Sakhir,Montmel퀌�퀌__,Istanbul
+222,Usable Directly Categorical,i,stop,6251.0,6.0,0.0,6.0,1.836346185,1.0,0.935239646,1,2,3,4,5
+237,Usable Directly Categorical,i,year,997.0,69.0,0.0,2018.0,1988.990973,1950.0,18.89714861,2009,2008,2007,2006,2005
+257,Usable Directly Categorical,i,fastestLap,23777.0,77.0,77.36047441,78.0,41.06167565,2.0,17.15484183,39,41,58,43,50
+364,Usable Directly Categorical,j,CAMERA ID,310579.0,354.0,0.1146246205,8313.0,1859.041122,1002.0,496.673585,2121,1751,1771,1533,1911
+375,Usable Directly Categorical,h,Token,571153.0,39415.0,0.0008754221723,0.0,0.0,0.0,0.0,Microstructured,",",functional,PVA,hydrogels
+379,Usable Directly Categorical,h,Token,667075.0,43349.0,0.0023985309,0.0,0.0,0.0,0.0,We,implemented,a,two,-
+383,Usable Directly Categorical,h,Token,662207.0,43160.0,0.00286919347,0.0,0.0,0.0,0.0,Serotonin,receptor,2A,(,HTR2A
+400,Usable Directly Categorical,i,National accounts reference year,263.0,9.0,79.46768061,2015.0,2007.777778,1995.0,5.090538306,,1996,2015,2010,2000
+414,Usable Directly Categorical,h,Source of most recent Income and expenditure data,263.0,69.0,37.26235741,0.0,0.0,0.0,0.0,,"Integrated household survey (IHS), 2011","Integrated household survey (IHS), 2008/09","Living Standards Measurement Study Survey (LSMS), 2012","Integrated household survey (IHS), 2014"
+416,Usable Directly Categorical,i,Latest agricultural census,263.0,25.0,49.80988593,0.0,0.0,0.0,0.0,,2012,2008,2014,2007
+417,Usable Directly Categorical,i,Latest industrial data,263.0,15.0,55.51330798,2014.0,2011.230769,2000.0,3.531021535,,2013,2002,2014,2012
+418,Usable Directly Categorical,i,Latest trade data,263.0,18.0,26.61596958,2016.0,2013.585492,1982.0,4.361180248,2015,2014,,2011,2016
+419,Usable Directly Categorical,i,Latest water withdrawal data,263.0,20.0,31.17870722,2016.0,2006.839779,1975.0,5.06005568,,2000,2005,2006,2011
+489,Usable Directly Categorical,i,Year,373.0,56.0,0.0,0.0,0.0,0.0,0.0,YR1960,YR1961,YR1962,YR1963,YR1964
+499,Usable Directly Categorical,i,Base Period,1518.0,6.0,95.05928854,0.0,0.0,0.0,0.0,,2004-06-01 00:00:00,2010,2011,1990
+575,Usable Directly Categorical,i,consume,258.0,42.0,0.0,0.0,0.0,0.0,0.0,5,"4,2","5,5","3,9","4,5"
+579,Usable Directly Categorical,h,specials,258.0,7.0,79.45736434,0.0,0.0,0.0,0.0,,AC rain,AC,rain,snow
+611,Usable Directly Categorical,h,incidentLocation,2799914.0,75308.0,0.0,0.0,0.0,0.0,0.0,0 N CALVERT ST,600 E FAYETTE ST,200 E BALTIMORE ST,800 PARK AV,3500 CLIFTON AV
+7,Usable Directly Categorical,a,lm6owner,9597.0,6.0,49.8384912,5.0,0.489613627,0.0,0.530142662,1,,0,4,2
+107,Usable Directly Categorical,i,hhrelig,9597.0,15.0,0.0,0.0,0.0,0.0,0.0,3,2,4,1,.
+538,Usable Directly Categorical,f,season1e,9597.0,155.0,9.242471606,0.0,0.0,0.0,0.0,October,November,w1may2002,w3may2002,w4apr2002
+539,Usable Directly Categorical,f,season1s,9597.0,133.0,9.263311451,0.0,0.0,0.0,0.0,June,May,July,w1oct2001,w2sep2001
+540,Usable Directly Categorical,f,season2e,9597.0,169.0,1.542148588,0.0,0.0,0.0,0.0,May,April,June,w1oct2002,w1aug2002
+541,Usable Directly Categorical,f,season2s,9597.0,144.0,1.562988434,0.0,0.0,0.0,0.0,November,December,Novemvre,w1may2002,w3mar2002
+545,Usable Directly Categorical,i,subs1tot,9597.0,110.0,2.99051787,0.0,0.0,0.0,0.0,.,25000,0,50,200
+548,Usable Directly Categorical,i,subs2tot,9597.0,186.0,3.834531624,0.0,0.0,0.0,0.0,.,25000,75000,200000,12000
+552,Usable Directly Categorical,i,subs4from,9597.0,5.0,75.13806398,4.0,0.044844929,0.0,0.317287324,,0,3,4,2
+119,Usable Directly Categorical,i,hm15owner_1,9597.0,5.0,78.70167761,3.0,-16.5,-99.0,37.24386105,,1,0,2,-99
+120,Usable Directly Categorical,i,hm15owner_2,9597.0,6.0,87.90246952,4.0,-34.74849268,-99.0,47.38584415,,0,1,-99,2
+139,Usable Directly Categorical,i,lm7owner_1,9597.0,6.0,76.43013442,4.0,-14.41290893,-99.0,35.51915302,,0,1,2,4
+398,Usable Directly Categorical,j,ppd_id,2720.0,170.0,0.0,173.0,86.44705882,1.0,50.20264954,1,2,3,4,5
+400,Usable Directly Categorical,a,fy,2720.0,16.0,0.0,2016.0,2008.5,2001.0,4.609772229,2001,2002,2003,2004,2005
+401,Usable Directly Categorical,j,system_id,2720.0,147.0,0.0,149.0,72.63529412,1.0,41.63817453,1,2,3,4,5
+402,Usable Directly Categorical,j,ValuationID,2720.0,158.0,0.0,173.0,86.14117647,1.0,50.17924411,1,2,3,4,5
+407,Usable Directly Categorical,a,PlanInceptionYear,2720.0,63.0,1.764705882,2000.0,1945.191617,1895.0,18.81804909,1945,1939,1961,1955,1968
+409,Usable Directly Categorical,a,PlanYearClosed,2720.0,7.0,95.29411765,2015.0,2001.75,1978.0,11.68064639,,2006,2015,1997,1978
+410,Usable Directly Categorical,g,AdministeringGovt,2720.0,4.0,0.0,5.0,0.717647059,0.0,1.21376191799999,0,5,2,1,0
+413,Usable Directly Categorical,f,GovtName,2720.0,95.0,0.0,0.0,0.0,0.0,0.0,Alabama,Alaska,Arizona,Arkansas,California
+457,Usable Directly Categorical,i,AssetSmoothingPeriod_GASB,2720.0,9.0,10.95588235,10.0,4.56234516899999,0.0,1.88085292199999,5,,4,7,10
+605,Usable Directly Categorical,h,source_ActCosts,2720.0,1432.0,20.51470588,0.0,0.0,0.0,0.0,,pg 5 :SECTION I - SUMMARY OF PRINCIPAL RESULTS,pg 7 :SECTION I - SUMMARY OF PRINCIPAL RESULTS,pg 5 :SECTION I - SUMMARY OF PRINCIPAL RESULTS. (member cont page 22 ),pg 5 :SECTION I - SUMMARY OF PRINCIPAL RESULTS. (member cont page 29)
+672,Usable Directly Categorical,i,ppd_id,2720.0,170.0,0.0,173.0,86.44705882,1.0,50.20264954,1,2,3,4,5
+674,Usable Directly Categorical,a,fy,2720.0,16.0,0.0,2016.0,2008.5,2001.0,4.609772229,2001,2002,2003,2004,2005
+675,Usable Directly Categorical,j,system_id,2720.0,147.0,0.0,149.0,72.63529412,1.0,41.63817453,1,2,3,4,5
+676,Usable Directly Categorical,j,ValuationID,2720.0,158.0,0.0,173.0,86.14117647,1.0,50.17924411,1,2,3,4,5
+684,Usable Directly Categorical,g,AdministeringGovt,2720.0,4.0,0.0,5.0,0.717647059,0.0,1.21376191799999,0,5,2,1,5
+687,Usable Directly Categorical,f,GovtName,2720.0,95.0,0.0,0.0,0.0,0.0,0.0,Alabama,Alaska,Arizona,Arkansas,California
+731,Usable Directly Categorical,i,AssetSmoothingPeriod_GASB,2720.0,9.0,10.95588235,10.0,4.56234516899999,0.0,1.88085292199999,5,,4,7,10
+948,Usable Directly Categorical,h,Variable Name,280.0,233.0,0.0,0.0,0.0,0.0,0.0,ppd_id,PlanName,EEGroupID,TierID,fy
+979,Usable Directly Categorical,h,Colour_primary,158026.0,1930.0,2.670446635,0.0,0.0,0.0,0.0,GREY & WHITE,BLACK/WHITE,TAN/WHITE,TRI,WHITE
+988,Usable Directly Categorical,j,goodreads_book_id,999912.0,10000.0,0.0,33288638.0,5263441.949,1.0,7574053.30799999,1,2,3,5,6
+989,Usable Directly Categorical,j,tag_id,999912.0,34252.0,0.0,34251.0,16324.5270699999,0.0,9647.84137099999,30574,11305,11557,8717,33114
+999,Usable Directly Categorical,a,original_publication_year,10000.0,293.0,0.21,2017.0,1981.98767399999,-1750.0,152.5690201,2008,1997,2005,1960,1925
+92,Usable Directly Categorical,g,TaxMap,277131.0,206.0,,32605.0,31443.17936,3.0,1170.467271,30101,3,30102,30103,30104
+114,Usable Directly Categorical,h,NumBldgs,89830.0,60.0,,2740.0,1.202315485,0.0,9.284930927,1,2,0,3,4
+115,Usable Directly Categorical,h,NumFloors,89830.0,46.0,,44.0,2.261825448,0.0,1.474827648,0,1,2,5,3
+124,Usable Directly Categorical,i,YearBuilt,89830.0,145.0,,2016.0,1805.10944,0.0,499.9684084,0,1931,1920,1967,1963
+125,Usable Directly Categorical,i,YearAlter1,89830.0,107.0,,2015.0,165.2156184,0.0,550.0911394,0,1994,2001,2009,1986
+132,Usable Directly Categorical,g,TaxMap,89830.0,92.0,,21906.0,21433.5346,2.0,786.8281339,20901,,20902,20904,2
+139,Usable Directly Categorical,g,PolicePrct,42958.0,25.0,,114.0,18.26225759,1.0,9.809040828,1,,5,7,9
+154,Usable Directly Categorical,i,YearBuilt,42958.0,194.0,,2040.0,1807.838214,0.0,453.1234835,1900,0,1987,1951,1960
+155,Usable Directly Categorical,i,YearAlter1,42958.0,108.0,,2016.0,1023.683225,0.0,994.0831133,0,2006,2014,1996,2009
+156,Usable Directly Categorical,i,YearAlter2,42958.0,60.0,,2016.0,175.5968155,0.0,566.7210664,0,2009,2007,2002,2004
+207,Usable Directly Categorical,i,YearBuilt,124048.0,148.0,,2016.0,1803.201607,0.0,541.5883337,1884,0,1923,1932,1931
+208,Usable Directly Categorical,i,YearAlter1,124048.0,71.0,,2016.0,98.30158487,0.0,432.6703978,2000,0,1991,1983,1986
+236,Usable Directly Categorical,i,Abbreviation,46.0,46.0,,0.0,0.0,0.0,0.0,12TH,16TH,19TH,24TH,ASHB
+578,Usable Directly Categorical,i,Block,277131.0,7611.0,,8955.0,4758.561319,1.0,2533.038266,1,3,5,6,7
+579,Usable Directly Categorical,i,Lot,277131.0,1678.0,,9047.0,151.5687599,1.0,854.2181762,1,50,7501,5,35
+621,Usable Directly Categorical,i,YearBuilt,277131.0,193.0,,2016.0,1846.336538,0.0,397.6326959,0,1920,1988,1900,1911
+639,Usable Directly Categorical,g,Block,89830.0,3032.0,,9999.0,4130.836925,0.0,1018.352648,2260,2261,0,2302,2362
+640,Usable Directly Categorical,g,Lot,89830.0,1963.0,,9978.0,109.6421908,1.0,452.3034075,1,4,10,17,18
+683,Usable Directly Categorical,g,Block,42958.0,1963.0,,2255.0,1228.821919,1.0,609.8556327,1,2,3,4,5
+684,Usable Directly Categorical,g,Lot,42958.0,640.0,,9220.0,516.671819,1.0,1824.233101,10,101,201,301,401
+714,Usable Directly Categorical,h,NumBldgs,42958.0,31.0,,158.0,1.083802784,0.0,1.188742354,158,10,7,0,2
+715,Usable Directly Categorical,h,NumFloors,42958.0,107.0,,104.0,5.858859584,0.0,6.074771906,0,5,1,2,3
+735,Usable Directly Categorical,g,TaxMap,42958.0,78.0,,10804.0,10405.12194,1.0,714.4175415,10101,1,,10102,10103
+741,Usable Directly Categorical,g,Block,324403.0,12163.0,,16350.0,7354.40471,6.0,4450.184429,6,11,13,15,16
+742,Usable Directly Categorical,g,Lot,324403.0,1352.0,,9130.0,73.66808568,1.0,414.5831644,1,3,8,20,30
+793,Usable Directly Categorical,g,TaxMap,324403.0,272.0,,46303.0,43240.39576,4.0,1997.558161,40101,4,,41601,40102
+798,Usable Directly Categorical,g,Block,124048.0,4076.0,,8050.0,3441.963498,1.0,2396.34846,1,2,3,4,5
+799,Usable Directly Categorical,g,Lot,124048.0,833.0,,9018.0,92.19630304,1.0,314.8367934,10,17,18,19,21
+829,Usable Directly Categorical,h,NumBldgs,124048.0,83.0,,417.0,1.135004192,0.0,2.420658442,1,0,4,2,3
+849,Usable Directly Categorical,g,TaxMap,124048.0,73.0,,53203.0,51465.70894,5.0,1211.294875,50101,,50102,50103,50104
+860,Usable Directly Categorical,g,Police District,82958.0,99.0,,0.0,0.0,0.0,0.0,690,590,822,642,620
+870,Usable Directly Categorical,g,Police District,80256.0,102.0,,0.0,0.0,0.0,0.0,690,590,822,642,530
+880,Usable Directly Categorical,g,Police District,73590.0,107.0,,0.0,0.0,0.0,0.0,690,590,822,642,530
+890,Usable Directly Categorical,g,Police District,70964.0,105.0,,0.0,0.0,0.0,0.0,690,590,822,830,642
+900,Usable Directly Categorical,g,Police District,64618.0,102.0,,0.0,0.0,0.0,0.0,590,822,830,850,871
+910,Usable Directly Categorical,g,Police District,59853.0,103.0,,0.0,0.0,0.0,0.0,590,822,830,850,871
+920,Usable Directly Categorical,g,Police District,61281.0,104.0,,0.0,0.0,0.0,0.0,690,590,822,830,530
+930,Usable Directly Categorical,g,Police District,63279.0,105.0,,0.0,0.0,0.0,0.0,690,822,830,850,871
+940,Usable Directly Categorical,g,Police District,61779.0,108.0,,0.0,0.0,0.0,0.0,690,822,642,620,830
+950,Usable Directly Categorical,g,Police District,61497.0,109.0,,0.0,0.0,0.0,0.0,890,842,902,830,642
+92,Usable Directly Categorical,i,against_bug,801.0,5.0,,4.0,0.996254682,0.25,0.596874677999999,1,0.5,0.25,2,4
+93,Usable Directly Categorical,i,against_dark,801.0,5.0,,4.0,1.057116105,0.25,0.437868002,1,0.5,2,0.25,4
+94,Usable Directly Categorical,i,against_dragon,801.0,4.0,,2.0,0.968789014,0.0,0.352837127999999,1,0,0.5,2,2
+95,Usable Directly Categorical,i,against_electric,801.0,6.0,,4.0,1.073970037,0.0,0.654552649,0.5,1,2,0,4
+96,Usable Directly Categorical,i,against_fairy,801.0,5.0,,4.0,1.06897628,0.25,0.521840784,0.5,1,2,0.25,4
+97,Usable Directly Categorical,i,against_fight,801.0,6.0,,4.0,1.065543071,0.0,0.716802956,0.5,1,0.25,2,0
+98,Usable Directly Categorical,i,against_fire,801.0,5.0,,4.0,1.13545568,0.25,0.691420635999999,2,0.5,1,4,0.25
+99,Usable Directly Categorical,i,against_flying,801.0,5.0,,4.0,1.192883895,0.25,0.604110387999999,2,1,0.5,4,0.25
+100,Usable Directly Categorical,i,against_ghost,801.0,5.0,,4.0,0.985018727,0.0,0.557907882,1,0,2,0.5,4
+101,Usable Directly Categorical,i,against_grass,801.0,5.0,,4.0,1.034019975,0.25,0.788403352,0.25,0.5,2,1,4
+102,Usable Directly Categorical,i,against_ground,801.0,6.0,,4.0,1.098002497,0.0,0.738356819,1,2,0,0.5,0.25
+103,Usable Directly Categorical,i,against_ice,801.0,5.0,,4.0,1.208177278,0.25,0.734896987,2,0.5,1,0.25,4
+104,Usable Directly Categorical,i,against_normal,801.0,4.0,,1.0,0.88701623,0.0,0.265939948,1,0.5,0,0.25,1
+105,Usable Directly Categorical,i,against_poison,801.0,6.0,,4.0,0.975343321,0.0,0.54903221,1,0.5,0.25,2,0
+106,Usable Directly Categorical,i,against_psychic,801.0,6.0,,4.0,1.005305868,0.0,0.494873784,2,1,0.5,0,0.25
+107,Usable Directly Categorical,i,against_rock,801.0,5.0,,4.0,1.25031211,0.25,0.696712829,1,2,4,0.5,0.25
+108,Usable Directly Categorical,i,against_steel,801.0,5.0,,4.0,0.983458177,0.25,0.499804357,1,0.5,2,0.25,4
+109,Usable Directly Categorical,i,against_water,801.0,5.0,,4.0,1.058364544,0.25,0.606183242999999,0.5,2,1,4,0.25
+175,Usable Directly Categorical,j,zip,13.0,13.0,,95712.0,55280.6153799999,7093.0,29060.6326399999,7093,10001,13417,46312,56567
+201,Usable Directly Categorical,i,zip,107093.0,649.0,,941331022.0,350858.4864,-1.0,14545736.41,10016,10003,10028,60626,10159
+955,Usable Directly Categorical,f,location,1420.0,105.0,,0.0,0.0,0.0,0.0,O02,P01,P02,R01,R02
+975,Usable Directly Categorical,h,group.who,5807.0,202.0,,0.0,0.0,0.0,0.0,Members,Founding Moms,Readers,Book Readers,Bookworms
+91,Usable Directly Categorical,,trackable_name,2483304.0,48680.0,,0.0,0.0,0.0,0.0,Ulcerative colitis,pain in left upper arm felt like i was getting a shot,hip pain when gettin up,pain in hand joints,numbness in right hand
+153,Usable Directly Categorical,,#Table1,10001.0,893.0,,0.0,0.0,0.0,0.0,fiberid,491,541,513,510
+155,Usable Directly Categorical,,year,8406.0,25.0,,2014.0,2002.188437,1990.0,7.151179389,2014,2013,2012,2011,2010
+216,Usable Directly Categorical,,Caller ID Number,943111.0,177597.0,,0.0,0.0,0.0,0.0,866-410-0458,619-840-7262,626-691-9090,877-218-8361,877-705-6767
+218,Usable Directly Categorical,,Advertiser Business Number,943111.0,77911.0,,0.0,0.0,0.0,0.0,,619-840-7262,626-691-9090,484-938-8231,213-905-6397
+221,Usable Directly Categorical,,Zip,943111.0,32215.0,,0.0,0.0,0.0,0.0,33324,92078,7481,1748,60504
+229,Usable Directly Categorical,,Project Name,151623.0,5573.0,,0.0,0.0,0.0,0.0,Rural Infrastr (FY00) - (PNIR),ID-W. JAVA ENVMT MGMT,TP-FUNDAMENTAL SCHOOL QUALITY PROJECT,BD: Rural Transport Improvement Project,DEVELOPMENT PROJECT
+307,Usable Directly Categorical,,ceremony,225675.0,3428.0,,0.0,0.0,0.0,0.0,ACCEC Awards,Alliance of Women Film Journalists,"Amanda Awards, Norway",Argentinean Film Critics Association Awards,Bangkok International Film Festival
+319,Usable Directly Categorical,,year,331.0,47.0,,2017.0,1998.175227,1968.0,11.71486994,2016,2013,2012,2007,2006
+321,Usable Directly Categorical,,outcome,331.0,4.0,,0.0,0.0,0.0,0.0,Nominated,Won,2nd place,3rd place,Nominated
+403,Usable Directly Categorical,,Date,8190.0,182.0,,0.0,0.0,0.0,0.0,2010-05-02 00:00:00,2010-12-02 00:00:00,19/02/10,26/02/10,2010-05-03 00:00:00
+595,Usable Directly Categorical,,Suburb,34857.0,351.0,,0.0,0.0,0.0,0.0,Abbotsford,Airport West,Albert Park,Alphington,Altona
+601,Usable Directly Categorical,,SellerG,34857.0,388.0,,0.0,0.0,0.0,0.0,Jellis,Biggin,Rounds,Nelson,Collins
+610,Usable Directly Categorical,,YearBuilt,34857.0,160.0,,2106.0,1965.289885,1196.0,37.32697782,,1900,2014,2006,1910
+616,Usable Directly Categorical,,match_id,150460.0,636.0,,636.0,318.2813173,1.0,182.954923,1,2,3,4,5
+638,Usable Directly Categorical,,season,636.0,10.0,,2017.0,2012.490566,2008.0,2.77084535,2017,2008,2009,2010,2011
+731,Usable Directly Categorical,,For Year,1781.0,6.0,,2016.0,2013.305348,1215.0,19.94693012,2012,2013,2014,2015,2016
+781,Usable Directly Categorical,,site_order,188462.0,311.0,,501.0,4.596156211,-50.0,12.61943242,1,2,6,11,3
+793,Usable Directly Categorical,,year,626.0,15.0,,2012.0,2004.864217,1998.0,4.313856578,1998,1999,2000,2001,2002
+800,Usable Directly Categorical,,ZIP,1351.0,1111.0,,0.0,0.0,0.0,0.0,00984-3869,00909-0000,00927-5131,00690-0580,00653-1347
+801,Usable Directly Categorical,,GROUP,1351.0,92.0,,9524.0,715.3789785,0.0,1704.750488,0,9113,2046,9243,1678
+802,Usable Directly Categorical,,SUBSECTION,1351.0,13.0,,19.0,3.550703183,1.0,2.322017811,3,4,7,5,10
+811,Usable Directly Categorical,,TAX_PERIOD,1351.0,33.0,,201706.0,201569.7686,200706.0,73.45229219,,201506,201609,201612,201412
+828,Usable Directly Categorical,,ZIP,1973.0,634.0,,0.0,0.0,0.0,0.0,00000-0000,96799-1715,00823-6193,00802-6003,09366-0000
+829,Usable Directly Categorical,,GROUP,1973.0,131.0,,9386.0,471.8783578,0.0,1575.241726,0,1894,3254,9321,955
+830,Usable Directly Categorical,,SUBSECTION,1973.0,13.0,,92.0,4.043588444,2.0,5.213060686,3,7,5,6,4
+839,Usable Directly Categorical,,TAX_PERIOD,1973.0,52.0,,201706.0,201555.879,200012.0,109.946921,201612,201512,201608,201703,
+856,Usable Directly Categorical,,ZIP,240579.0,175390.0,,0.0,0.0,0.0,0.0,01069-1507,02127-4415,01852-2348,01840-1242,02126-2433
+857,Usable Directly Categorical,,GROUP,240579.0,1592.0,,9706.0,507.878011,0.0,1513.789482,3125,2365,0,2062,928
+867,Usable Directly Categorical,,TAX_PERIOD,240579.0,159.0,,201707.0,201573.4943,198812.0,95.82580695,,201612,201512,201705,201605
+884,Usable Directly Categorical,,ZIP,619129.0,454028.0,,0.0,0.0,0.0,0.0,40202-2504,23523-2112,46513-0000,49780-9349,21705-7511
+885,Usable Directly Categorical,,GROUP,619129.0,2589.0,,9707.0,865.5993824,0.0,1970.373963,1736,0,928,557,1961
+912,Usable Directly Categorical,,ZIP,768922.0,601268.0,,0.0,0.0,0.0,0.0,32334-0092,65802-1894,33975-0296,92105-1462,94401-1833
+913,Usable Directly Categorical,,GROUP,768922.0,2788.0,,9705.0,739.1877434,0.0,1853.934136,2024,1678,0,3125,3158
+940,Usable Directly Categorical,,ZIP,3324.0,1745.0,,0.0,0.0,0.0,0.0,00000-0000,00984-3869,00909-0000,96799-1715,00927-5131
+941,Usable Directly Categorical,,GROUP,3324.0,189.0,,9524.0,570.8462696,0.0,1633.505581,0,9113,2046,1894,3254
+942,Usable Directly Categorical,,SUBSECTION,3324.0,16.0,,92.0,3.843261131,1.0,4.287268079,3,7,5,6,4
+951,Usable Directly Categorical,,TAX_PERIOD,3324.0,55.0,,201706.0,201561.2375,200012.0,97.73364145,201612,,201506,201512,201608
+1017,Usable Directly Categorical,,SYMBOL,65188.0,2328.0,,0.0,0.0,0.0,0.0,AGRN,B3GALT6,ATAD3A,TMEM240,GNB1
+1055,Usable Directly Categorical,,YEAR,1224.0,24.0,,2015.0,2003.5,1992.0,6.922186552,1992,1993,1994,1995,1996
+9,Usable Directly Categorical,j,M1_sequence_number,2314.0,80.0,,134.0,56.77139153,0.0,42.50537648,2,86,126,128,46
+175,Usable Directly Categorical,f,SERVER,1781.0,239.0,,0.0,0.0,0.0,0.0,nginx,Apache/2.4.10,Microsoft-HTTPAPI/2.0,None,Apache/2
+176,Usable Directly Categorical,,Permit Number,198900.0,181495.0,,0.0,0.0,0.0,0.0,202000000000,202000000000,202000000000,202000000000,202000000000
+389,Usable Directly Categorical,i,Numot,2050.0,4.0,,3.0,0.070731707,0.0,0.288599564,0,1,3,2,0
+391,Usable Directly Categorical,i,Seed,2150.0,88.0,,0.0,0.0,0.0,0.0,W01,W02,W03,W04,W05
+401,Usable Directly Categorical,g,Block,198900.0,4896.0,,0.0,0.0,0.0,0.0,326,306,595,156,342
+402,Usable Directly Categorical,g,Street Number,198900.0,5099.0,,8400.0,1121.728944,0.0,1135.766093,140,440,1647,1230,950
+572,Usable Directly Categorical,j,Loan.Theme.ID,4861.0,63.0,,0.0,0.0,0.0,0.0,a1050000002ZOr8,a1050000006Tm5J,a1050000000wf0w,a1050000002ZOqt,a1050000006Tm4k
+724,Usable Directly Categorical,i,q9CurrentRole,25090.0,21.0,,0.0,0.0,0.0,0.0,18,10,2,0,19
+725,Usable Directly Categorical,i,q10Industry,25090.0,22.0,,0.0,0.0,0.0,0.0,0,5,4,14,13
+728,Usable Directly Categorical,i,Season,33.0,33.0,,2017.0,2001.0,1985.0,9.521904571,1985,1986,1987,1988,1989
+774,Usable Directly Categorical,f,HomeTeam,4572.0,77.0,,0.0,0.0,0.0,0.0,France,USA,Yugoslavia,Romania,Argentina
+775,Usable Directly Categorical,f,AwayTeam,4572.0,82.0,,0.0,0.0,0.0,0.0,Mexico,Belgium,Brazil,Peru,France
+784,Usable Directly Categorical,i,PHONE,399918.0,25165.0,,0.0,0.0,0.0,0.0,2126863400,3478134702,7189839854,7187019180,9172852796
+817,Usable Directly Categorical,i,Year,4572.0,20.0,,2014.0,1985.089202,1930.0,22.43564664,1930,1934,1938,1950,1954
+819,Usable Directly Categorical,f,Winner,20.0,9.0,,0.0,0.0,0.0,0.0,Uruguay,Italy,Germany FR,Brazil,England
+820,Usable Directly Categorical,f,Runners-Up,20.0,10.0,,0.0,0.0,0.0,0.0,Argentina,Czechoslovakia,Hungary,Brazil,Sweden
+821,Usable Directly Categorical,f,Third,20.0,14.0,,0.0,0.0,0.0,0.0,USA,Germany,Brazil,Sweden,Austria
+822,Usable Directly Categorical,f,Fourth,20.0,16.0,,0.0,0.0,0.0,0.0,Yugoslavia,Austria,Sweden,Spain,Uruguay
+914,Usable Directly Categorical,f,Season,2050.0,32.0,,2016.0,2000.676585,1985.0,9.272528955,1985,1986,1987,1988,1989
+915,Usable Directly Categorical,i,Season,914.0,14.0,,2016.0,2009.578775,2003.0,4.036868956,2003,2004,2005,2006,2007
+916,Usable Directly Categorical,i,Season,2150.0,33.0,,2017.0,2001.19023299999,1985.0,9.56104487,1985,1986,1987,1988,1989
+917,Usable Directly Categorical,i,Season,2117.0,33.0,,2017.0,2001.193198,1985.0,9.561623767,1985,1986,1987,1988,1989
+918,Usable Directly Categorical,i,Slot,2117.0,75.0,,0.0,0.0,0.0,0.0,R1W1,R1W2,R1W3,R1W4,R1W5
+919,Usable Directly Categorical,i,Strongseed,2117.0,75.0,,0.0,0.0,0.0,0.0,W01,W02,W03,W04,W05
+920,Usable Directly Categorical,i,Weakseed,2117.0,75.0,,0.0,0.0,0.0,0.0,W16,W15,W14,W13,W12
+939,Usable Directly Categorical,j,license_number,66042.0,42239.0,,90097444.0,461356.8154,1254.0,724345.8948,130651,898148,29654,75432,729899
+1076,Usable Directly Categorical,i,Lot,198900.0,1055.0,,0.0,0.0,0.0,0.0,23,7,203,11,1
+32,Usable Directly Categorical,h,outcome_hour,29421.0,22.0,,23.0,14.00577819,0.0,3.863203381,16,18,17,14,19
+188,Usable Directly Categorical,g,Local,425.0,12.0,,0.0,0.0,0.0,0.0,Local_01,Local_02,Local_03,Local_04,Local_05
+191,Usable Directly Categorical,g,Local,439.0,12.0,,0.0,0.0,0.0,0.0,Local_01,Local_02,Local_03,Local_04,Local_05
+208,Usable Directly Categorical,f,ACTOR1,165808.0,3288.0,,0.0,0.0,0.0,0.0,Police Forces of Algeria (1999-),Rioters (Algeria),Protesters (Algeria),Unidentified Armed Group (Algeria),GIA: Armed Islamic Group
+213,Usable Directly Categorical,h,Machining_Process,605.0,9.0,,0.0,0.0,0.0,0.0,Prep,Layer 1 Up,Layer 1 Down,Repositioning,Layer 2 Up
+398,Usable Directly Categorical,f,LOCATION,165808.0,17936.0,,0.0,0.0,0.0,0.0,Beni Douala,Tizi Ouzou,Amizour,El Kseur,Barbacha
+421,Usable Directly Categorical,h,dob_year,29421.0,26.0,,2017.0,2013.982428,1992.0,2.965523173,2014,2013,2012,2011,2010
+509,Usable Directly Categorical,i,year,11673.0,66.0,,2017.0,2001.97275799999,1950.0,13.47478723,1970,1978,1987,1979,1976
+927,Usable Directly Categorical,h,Machining_Process,565.0,6.0,,0.0,0.0,0.0,0.0,Prep,Layer 1 Up,Layer 1 Down,Repositioning,Layer 2 Up
+1019,Usable Directly Categorical,h,Machining_Process,740.0,9.0,,0.0,0.0,0.0,0.0,Prep,Layer 1 Up,Layer 1 Down,Repositioning,Layer 2 Up
+2,Usable Directly Categorical,i,year,79422.0,46.0,0.0,2015.0,1993.368941,1970.0,13.1782989999999,2015,2014,2013,2012,2011
+7,Usable Directly Categorical,i,year,80583.0,46.0,0.0,2015.0,1993.23675,1970.0,13.20554994,2015,2014,2013,2012,2011
+12,Usable Directly Categorical,i,year,81106.0,46.0,0.0,2015.0,1993.21139,1970.0,13.20784341,2015,2014,2013,2012,2011
+17,Usable Directly Categorical,i,year,81106.0,46.0,0.0,2015.0,1993.21139,1970.0,13.20784341,2015,2014,2013,2012,2011
+22,Usable Directly Categorical,i,year,9237.0,46.0,0.0,2015.0,1993.188914,1970.0,13.21347015,2015,2014,2013,2012,2011
+27,Usable Directly Categorical,i,year,9234.0,46.0,0.0,2015.0,1993.1906,1970.0,13.21527716,2015,2014,2013,2012,2011
+32,Usable Directly Categorical,i,year,72485.0,46.0,0.0,2015.0,1993.34901,1970.0,13.18594276,2015,2014,2013,2012,2011
+37,Usable Directly Categorical,i,year,73645.0,46.0,0.0,2015.0,1993.19740599999,1970.0,13.21479825,2015,2014,2013,2012,2011
+42,Usable Directly Categorical,i,year,73646.0,46.0,0.0,2015.0,1993.197553,1970.0,13.21476849,2015,2014,2013,2012,2011
+47,Usable Directly Categorical,i,year,73646.0,46.0,0.0,2015.0,1993.197553,1970.0,13.21476849,2015,2014,2013,2012,2011
+52,Usable Directly Categorical,i,year,9234.0,46.0,0.0,2015.0,1993.1906,1970.0,13.21527716,2015,2014,2013,2012,2011
+57,Usable Directly Categorical,i,year,9234.0,46.0,0.0,2015.0,1993.1906,1970.0,13.21527716,2015,2014,2013,2012,2011
+112,Usable Directly Categorical,f,value_footnotes,225363.0,223.0,89.54043033,0.0,0.0,0.0,0.0,,1,2,3,4
+126,Usable Directly Categorical,f,value_footnotes,223379.0,194.0,89.68972016,0.0,0.0,0.0,0.0,,1,2,3,4
+140,Usable Directly Categorical,f,value_footnotes,595971.0,626.0,86.23070586,0.0,0.0,0.0,0.0,,1,2,3,4
+147,Usable Directly Categorical,i,year,61626.0,67.0,0.337519878,2016.0,2002.996662,1950.0,10.98303328,2015,2014,2013,2012,2011
+160,Usable Directly Categorical,i,fiscal_year,68023.0,67.0,0.2896079267,2016.0,2002.546811,1950.0,11.18339747,2015,2014,2013,2012,2011
+188,Usable Directly Categorical,i,year,48269.0,67.0,0.2548219354,2016.0,1996.413845,1950.0,11.91192733,1976,1975,1974,1973,1986
+194,Usable Directly Categorical,f,value_footnotes,48269.0,62.0,96.26468334,0.0,0.0,0.0,0.0,,1,2,3,4
+201,Usable Directly Categorical,i,year,100048.0,71.0,0.1899088438,2016.0,1995.749655,1946.0,12.52392156,2014,2013,2012,2011,2010
+220,Usable Directly Categorical,f,value_footnotes,227092.0,118.0,94.88269072,0.0,0.0,0.0,0.0,,1,2,3,4
+245,Usable Directly Categorical,j,Requisition Number,346018.0,5997.0,95.84732586,0.0,0.0,0.0,0.0,REQ0011118,REQ0011932,REQ0011476,,REQ0013911
+256,Usable Directly Categorical,f,Item Name,346018.0,180031.0,0.008670069187,0.0,0.0,0.0,0.0,USB,Tire Disposal,Labor,,Toner
+257,Usable Directly Categorical,f,Item Description,346018.0,219510.0,0.03670329289,0.0,0.0,0.0,0.0,USB,Tire Disposal,Labor,,Toner
+262,Usable Directly Categorical,g,Normalized UNSPSC,346018.0,13553.0,0.2939153454,95141903.0,49321974.01,301817.0,22469633.62,,76121504,44103127,85121615,401728
+276,Usable Directly Categorical,f,Con,1518.0,158.0,0.0,0.0,0.0,0.0,0.0,Afghanistan,Afghanistan/Pakistan,Algeria,Angola,Angola/Burundi/Central African Republic/Democratic Republic of Congo/Kenya/Republic of Congo/Rwanda/Sudan/Tanzania/Uganda/Zambia/(African Great Lakes)
+280,Usable Directly Categorical,f,Agt,1518.0,1484.0,0.0,0.0,0.0,0.0,0.0,Tokyo Declaration Partnership for Self-Reliance in Afghanistan from Transition to Transformation (Tokyo Conference),Conclusions of the Conference on Afghanistan and the International Community: From Transition to the Transformation Decade (Bonn Conference),Istanbul Process on Regional Security and Cooperation for a Secure and Stable Afghanistan,Renewed Commitment by the Afghan Government to the Afghan People and the International Community to Afghanistan (Kabul Conference Communique),The Resolution Adopted at the Conclusion of the National Consultative Peace Jirga
+290,Usable Directly Categorical,a,GCh,1518.0,4.0,0.0,3.0,0.314888011,0.0,0.774887272,1,False,2,3,3
+295,Usable Directly Categorical,a,GDis,1518.0,4.0,0.0,3.0,0.152173913,0.0,0.584070393999999,0,3,1,2,0
+300,Usable Directly Categorical,a,GAge,1518.0,4.0,0.0,3.0,0.102108037,0.0,0.475467494,0,3,1,2,3
+305,Usable Directly Categorical,a,GMig,1518.0,4.0,0.0,3.0,0.0296442689999999,0.0,0.261325808,0,3,2,1,3
+310,Usable Directly Categorical,a,GRa,1518.0,4.0,0.0,3.0,0.398550725,0.0,0.856609124,0,1,3,2,0
+315,Usable Directly Categorical,a,GRe,1518.0,4.0,0.0,3.0,0.280632411,0.0,0.755502690999999,0,2,1,3,2
+320,Usable Directly Categorical,a,GInd,1518.0,4.0,0.0,3.0,0.140974966999999,0.0,0.559874443,0,3,1,2,2
+325,Usable Directly Categorical,a,GOth,1518.0,4.0,0.0,3.0,0.057971014,0.0,0.369183972,0,2,3,1,1
+330,Usable Directly Categorical,a,GRef,1518.0,4.0,0.0,3.0,0.468379447,0.0,0.879417033,1,False,2,3,3
+334,Usable Directly Categorical,a,GSoc,1518.0,4.0,0.0,3.0,0.093544137,0.0,0.443602402,0,2,1,3,0
+355,Usable Directly Categorical,a,Pol,1518.0,4.0,0.0,3.0,0.415678524,0.0,0.828791384,0,1,2,3,3
+359,Usable Directly Categorical,a,ConRen,1518.0,4.0,0.0,3.0,0.112648220999999,0.0,0.504092052,2,False,1,3,3
+360,Usable Directly Categorical,a,Cons,1518.0,4.0,0.0,3.0,0.36627141,0.0,0.879555934,0,3,2,1,2
+361,Usable Directly Categorical,a,Ele,1518.0,4.0,0.0,3.0,0.321475626,0.0,0.705297055,2,False,1,3,2
+362,Usable Directly Categorical,a,ElecComm,1518.0,4.0,0.0,3.0,0.127140975,0.0,0.487296995,0,1,2,3,3
+363,Usable Directly Categorical,a,PolPar,1518.0,4.0,0.0,3.0,0.113306983,0.0,0.44196173,0,1,2,3,0
+366,Usable Directly Categorical,a,Pubad,1518.0,4.0,0.0,3.0,0.15942029,0.0,0.477021591,0,1,2,3,2
+367,Usable Directly Categorical,a,Polps,1518.0,4.0,0.0,3.0,0.368906456,0.0,0.857967535,0,1,2,3,2
+377,Usable Directly Categorical,a,Terps,1518.0,4.0,0.0,3.0,0.295125165,0.0,0.812364887,0,3,1,2,2
+382,Usable Directly Categorical,a,Eps,1518.0,4.0,0.0,3.0,0.150197628,0.0,0.582888937,0,3,2,1,3
+385,Usable Directly Categorical,a,Mps,1518.0,4.0,0.0,3.0,0.26284585,0.0,0.751863957999999,0,1,2,3,3
+390,Usable Directly Categorical,a,EqGen,1518.0,4.0,0.0,3.0,0.265480896,0.0,0.682942559,1,False,2,3,2
+391,Usable Directly Categorical,a,HrDem,1518.0,4.0,0.0,3.0,0.364295125,0.0,0.750732973,2,1,0,3,0
+393,Usable Directly Categorical,a,HrFra,1518.0,4.0,0.0,3.0,0.426218709,0.0,0.904255965,3,False,1,2,2
+423,Usable Directly Categorical,a,HrNi,1518.0,4.0,0.0,3.0,0.12911726,0.0,0.537581698,1,False,2,3,3
+427,Usable Directly Categorical,a,HrIi,1518.0,4.0,0.0,3.0,0.0592885379999999,0.0,0.372528333999999,0,3,1,2,1
+433,Usable Directly Categorical,a,Med,1518.0,4.0,0.0,3.0,0.492094862,0.0,0.904317392,1,False,2,3,0
+438,Usable Directly Categorical,a,HrCit,1518.0,4.0,0.0,3.0,0.212121212,0.0,0.607212344,0,2,1,3,1
+455,Usable Directly Categorical,a,Bus,1518.0,4.0,0.0,3.0,0.256916996,0.0,0.67214598,1,False,3,2,1
+456,Usable Directly Categorical,a,Tax,1518.0,4.0,0.0,3.0,0.18115942,0.0,0.603667513,1,False,3,2,2
+478,Usable Directly Categorical,a,Ce,1518.0,4.0,0.0,3.0,0.876152833,0.0,1.060339249,0,1,2,3,2
+481,Usable Directly Categorical,a,SsrPol,1518.0,4.0,0.0,3.0,0.414361001,0.0,0.776111947999999,1,False,2,3,0
+482,Usable Directly Categorical,a,SsrArm,1518.0,4.0,0.0,3.0,0.319499341,0.0,0.750073698,1,False,3,2,3
+483,Usable Directly Categorical,a,SsrDdr,1518.0,4.0,0.0,3.0,0.496047431,0.0,0.89408696,1,False,2,3,1
+486,Usable Directly Categorical,a,SsrInt,1518.0,4.0,0.0,3.0,0.05599473,0.0,0.340735127,0,1,2,3,1
+489,Usable Directly Categorical,a,Cor,1518.0,4.0,0.0,3.0,0.134387352,0.0,0.499396856,2,1,0,3,1
+490,Usable Directly Categorical,a,SsrCrOcr,1518.0,4.0,0.0,3.0,0.085638999,0.0,0.393346282,2,False,1,3,0
+491,Usable Directly Categorical,a,SsrDrugs,1518.0,4.0,0.0,3.0,0.067852437,0.0,0.338573306,2,1,0,3,1
+493,Usable Directly Categorical,a,TjGen,1518.0,4.0,0.0,3.0,0.070487484,0.0,0.320015068,0,2,1,3,1
+494,Usable Directly Categorical,a,TjAm,1518.0,4.0,0.0,3.0,0.268115942,0.0,0.713079763,0,2,3,1,3
+498,Usable Directly Categorical,a,TjCou,1518.0,4.0,0.0,3.0,0.079710145,0.0,0.358737237999999,0,1,2,3,0
+501,Usable Directly Categorical,a,TjMech,1518.0,4.0,0.0,3.0,0.146903821,0.0,0.569446284,0,2,3,1,0
+502,Usable Directly Categorical,a,TjPrire,1518.0,4.0,0.0,3.0,0.285243741999999,0.0,0.68269088,0,2,1,3,1
+503,Usable Directly Categorical,a,TjVet,1518.0,4.0,0.0,3.0,0.018445323,0.0,0.194596861999999,0,2,3,1,0
+504,Usable Directly Categorical,a,TjVic,1518.0,4.0,0.0,3.0,0.208827404,0.0,0.590215405,1,False,2,3,2
+505,Usable Directly Categorical,a,TjMis,1518.0,4.0,0.0,3.0,0.07312253,0.0,0.374485505,0,1,2,3,2
+506,Usable Directly Categorical,a,TjRep,1518.0,4.0,0.0,3.0,0.15942029,0.0,0.516793276,0,1,3,2,2
+509,Usable Directly Categorical,a,TjNR,1518.0,4.0,0.0,3.0,0.285243741999999,0.0,0.606013703,1,False,3,2,1
+541,Usable Directly Categorical,j,member_id,45583.0,24631.0,0.0,240003395.0,149425402.6,2069.0,80218728.41,2069,625050,1939496,2606806,3438546
+553,Usable Directly Categorical,j,organizer_id,602.0,522.0,0.0,237353086.0,110629473.6,8386.0,87387052.83,4353803,118484462,108448302,8111102,184580248
+557,Usable Directly Categorical,f,hometown,24591.0,1635.0,79.96421455,0.0,0.0,0.0,0.0,Brentwood,Nashville,,"Huntington, WV",Cookeville
+565,Usable Directly Categorical,j,group_id,126813.0,602.0,0.0,26296592.0,11586366.67,47094.0,8092109.674,26140018,25604533,25973656,18571126,18821254
+582,Usable Directly Categorical,j,CustomerID,541909.0,4372.0,24.92669433,18287.0,15287.6905699999,12346.0,1713.59819699999,17850,13047,12583,13748,15100
+810,Usable Directly Categorical,a,married1,9597.0,10.0,8.335938314,20.0,1.19836307799999,1.0,0.657141877,1,3,2,,4
+811,Usable Directly Categorical,a,married2,9597.0,8.0,10.45118266,7.0,1.377589016,0.0,1.008673327,1,3,2,4,
+812,Usable Directly Categorical,a,married3,9597.0,8.0,12.82692508,7.0,2.409514702,0.0,1.512202444,1,4,2,3,
+813,Usable Directly Categorical,a,married4,9597.0,9.0,16.63019694,9.0,2.775153106,0.0,1.612215138,4,1,2,3,
+814,Usable Directly Categorical,a,married5,9597.0,9.0,23.37188705,12.0,3.01930921899999,0.0,1.643889886,1,2,4,3,
+815,Usable Directly Categorical,a,married6,9597.0,9.0,32.15588205,17.0,3.097527262,0.0,1.739663075,2,1,4,3,
+816,Usable Directly Categorical,a,married7,9597.0,8.0,41.5546525,7.0,3.086111606,0.0,1.836196745,2,1,4,,3
+817,Usable Directly Categorical,a,married8,9597.0,10.0,49.94269042,11.0,3.057660283,0.0,1.911392077,2,4,1,,3
+954,Usable Directly Categorical,a,married9,9597.0,8.0,72.46014379,7.0,2.390843738,0.0,2.192518012,4,1,2,,3
+955,Usable Directly Categorical,a,married10,9597.0,9.0,75.70073981,9.0,2.21526586599999,0.0,2.198543153,4,1,2,,3
+956,Usable Directly Categorical,a,married11,9597.0,8.0,78.86839637,7.0,1.93737672599999,0.0,2.141798591,4,1,2,,3
+957,Usable Directly Categorical,a,married12,9597.0,8.0,81.2024591,7.0,1.720066519,0.0,2.054095686,3,1,4,,2
+958,Usable Directly Categorical,a,married13,9597.0,7.0,82.94258622,7.0,1.532681735,0.0,1.96448328599999,4,1,,2,3
+959,Usable Directly Categorical,a,married14,9597.0,7.0,84.58893404,7.0,1.334009466,0.0,1.88854404099999,4,,2,1,3
+960,Usable Directly Categorical,a,married15,9597.0,7.0,85.56840679,7.0,1.200722022,0.0,1.85039741599999,1,4,,3,2
+961,Usable Directly Categorical,a,married16,9597.0,7.0,95.89455038,7.0,3.395939086,1.0,1.419796138,1,2,,4,3
+962,Usable Directly Categorical,a,married17,9597.0,7.0,96.49890591,7.0,3.18452381,0.0,1.514375091,1,2,,4,3
+963,Usable Directly Categorical,a,married18,9597.0,7.0,96.99906221,7.0,3.208333333,0.0,1.437952827,4,1,,2,3
+964,Usable Directly Categorical,a,married19,9597.0,8.0,97.44711889,7.0,3.212244898,0.0,1.37464394699999,4,1,,2,6
+965,Usable Directly Categorical,a,married20,9597.0,6.0,97.94727519,7.0,3.197969543,1.0,1.288920352,4,,2,1,3
+1015,Usable Directly Categorical,a,adm1,9597.0,120.0,0.0,0.0,0.0,0.0,0.0,Bam,Ioba,Bougouriba,Boulgou,Boulkiemde
+1016,Usable Directly Categorical,a,adm2,9597.0,405.0,0.0,0.0,0.0,0.0,0.0,Tikare,Koper,Tiankoura,Zabre,Sabou

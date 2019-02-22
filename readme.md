@@ -141,69 +141,6 @@ def LF1:
    if values == numbers:
     goto LF3
 ```
-| #    | y_act | Attribute_name |
-| ---- | ----- | -------------- |
-| 155 	| Unusable                    	| #                                          	|
-| 153 	| Usable directly categorical 	| #Table1                                    	|
-| 986 	| Usable directly numeric     	| $ Oil prices                               	|
-| 994 	| Usable directly numeric     	| 10 year/medium-term government bond yields 	|
-| 968 	| Unusable                    	| 1990 [YR1990]                              	|
-| 23  	| Context_specific            	| 1990 [YR1990]                              	|
-| 393 	| Unusable                    	| 2-alpha code                               	|
-| 24  	| Context_specific            	| 2000 [YR2000]                              	|
-| 15  	| Context_specific            	| 2008 [YR2008]                              	|
-| 16  	| Context_specific            	| 2009 [YR2009]                              	|
-| 17  	| Context_specific            	| 2010 [YR2010]                              	|
-| 27  	| Context_specific            	| 2011 [YR2011]                              	|
-| 18  	| Context_specific            	| 2012 [YR2012]                              	|
-| 19  	| Context_specific            	| 2013 [YR2013]                              	|
-| 20  	| Context_specific            	| 2014 [YR2014]                              	|
-| 21  	| Context_specific            	| 2015 [YR2015]                              	|
-| 22  	| Context_specific            	| 2016 [YR2016]                              	|
-| 574 	| **Unusable**                 | **2017 [YR2017]**                           |
-| 20  	| Context_specific            	| ABV                                        	|
-| 581 	| Usable directly categorical 	| AC                                         	|
-| 816 	| Context_specific            	| ACCT_PD                                    	|
-| 764 	| Usable with extraction      	| ACTION                                     	|
-| 808 	| Usable directly numeric     	| ACTIVITY                                   	|
-| 208 	| Usable directly categorical 	| ACTOR1                                     	|
-| 209 	| Context_specific            	| ACTOR1_ID                                  	|
-| 210 	| Usable directly categorical 	| ACTOR2                                     	|
-| 211 	| Context_specific            	| ACTOR2_ID                                  	|
-| 384 	| Context_specific            	| ACTOR_DYAD_ID                              	|
-| 365 	| Usable with extraction      	| ADDRESS                                    	|
-| 514 	| Usable Directly Numeric     	| ADEC                                       	|
-| ... 	| ...                         	| ...                                        	|
-| 64  	| Context_specific            	| y                                          	|
-| 785 	| Usable directly numeric     	| y_coordinate                               	|
-| 262 	| **Unusable**                 | **year**                                    |
-| 2   	| **Usable Directly Categorical** | **year**                                    |
-| 237 	| **Usable directly categorical** | **year**                                    |
-| 463 	| Usable directly numeric     	| yearly_sunlight_kwh_e                      	|
-| 465 	| Usable directly numeric     	| yearly_sunlight_kwh_f                      	|
-| 448 	| Usable directly numeric     	| yearly_sunlight_kwh_kw_threshold_avg       	|
-| 466 	| Usable directly numeric     	| yearly_sunlight_kwh_median                 	|
-| 461 	| Usable directly numeric     	| yearly_sunlight_kwh_n                      	|
-| 462 	| Usable directly numeric     	| yearly_sunlight_kwh_s                      	|
-| 467 	| Usable directly numeric     	| yearly_sunlight_kwh_total                  	|
-| 464 	| Usable directly numeric     	| yearly_sunlight_kwh_w                      	|
-| 606 	| Usable Directly Numeric     	| yearsuse1                                  	|
-| 255 	| Usable Directly Numeric     	| yearsuse10                                 	|
-| 256 	| Usable Directly Numeric     	| yearsuse11                                 	|
-| 257 	| Usable Directly Numeric     	| yearsuse12                                 	|
-| 607 	| Usable Directly Numeric     	| yearsuse2                                  	|
-| 109 	| **Context_specific**         | **yearsuse3**                               |
-| 110 	| **Context_specific**         | **yearsuse4**                               |
-| 250 	| Usable Directly Numeric     	| yearsuse5                                  	|
-| 251 	| Usable Directly Numeric     	| yearsuse6                                  	|
-| 252 	| Usable Directly Numeric     	| yearsuse7                                  	|
-| 253 	| Usable Directly Numeric     	| yearsuse8                                  	|
-| 254 	| Usable Directly Numeric     	| yearsuse9                                  	|
-| 185 	| Usable directly numeric     	| yes_rsvp_count                             	|
-| 788 	| Usable directly numeric     	| yieldpercol                                	|
-| 65  	| Context_specific            	| z                                          	|
-| 175 	| Usable directly categorical 	| zip                                        	|
-| 722 	| Usable directly categorical 	| zip_code                                   	|
 
 ---
 
@@ -229,3 +166,52 @@ def LF1:
  + TODO: Write more labeling functions
 
  + TODO: Feed m*n data into snorkel
+
+
+
+**2/20**: 
+
+| LF                        | CHECKS                                                       | reasoning                       | sample1          |  sample2    |
+| ------------------------- | ------------------------------------------------------------ | ------------------------------- | ---------------- | ---- |
+| lf_cast_to_numbers        | Case a. Should be usable directly as a number feature for ML | 4/5 Samples are of float values | 12.34      | 24.54 |
+| lf_extractable_units      | Case b. A number present along with unit of measure string   | unit + number + unit            | 50 hz       | $10 |
+| lf_extractable_number_sci | Case b. A number with scientific representation              | \d+[eE^,]\d+                    | 5,000       | 1e9 |
+| lf_extractable_pattern    | Case c  A String representation following some pattern       |                                 | pg 1, pg 2, pg 5 | HT-1, HT-2 |
+| lf_date_extraction_name | **Case d.** Date or time stamp | date, time in attribute name |  |  |
+| lf_extractable_name | Case c. A text corpus with semantic meaning, URL, address | url, text in attribute name | review text | remarks |
+| lf_extractable_list | Case c. A list of items in a single sample separated by symbols | start and end by {} [] () | {man:clothing , woman:cloing} |  |
+| lf_extractable_sample_length | Case c extremely long textual data (integer could not be that long) | len(str)>25 | url |  |
+| lf_date_extraction_samples | Case d. Date or time stamp | regex match dattime | 7/11/2018 | 12:20 |
+| lf_binary_category | Case e. Yes/No type values, including binary 0/1 answers | dist == 2 / 3 |  |  |
+| lf_name_category | Case f. Country names, city names, food type names, and other object type names | 'city, state, country, ...' in Attribute_name |  |  |
+| lf_coded_abbreviation | Case g. Coded numbers that are short forms of names | upper case + same length + only alpha | CHN USA | CS, MATH |
+| lf_coded_number | Case g. Coded numbers that are short forms of names<br/>Case i. Handful of coded numbers that repeat themselves but arbitrary arithmetic on them is not meaningful | 1. attribute name contains code<br/>2. all codes are of the same length 3. all codes are consisted of numbers | 80525, 92092 | 1995, 2018 |
+| lf_finite_set_name | Case h. Short names that indicate type from a known finite set/domain<br/>Case j. A coded number that encodes real-world entities from a known finite/ domain set | 1. attribute names indicates the samples ['job title', 'type', 'gender'] |  |  |
+| lf_finite_set_sample | Case h. Short names that indicate type from a known finite set/domain | 1. attribute samples are usually with meadian length 10-25,<br/>2. attribute samples are mostly composed by alphabeta letters |  |  | | lf_unusable | Case k. A number indicating the position of a record in its dataset table, e.g., serial number<br/>Case l. An attribute that is likely the primary key in its dataset table, or an attribute whose values will almost surely be unique for all records in its dataset table but is not a numeric feature | 1. #distinct = 1<br/>2. %distinct = 100% 3. %nans     > 99% |  |  |
+
+### Usable With Extraction
+
+1. A number present along with unit of measure string: unit + number + unit
+2. Scientific representation: \d+[eE,^]\d+
+3. A String representation following some pattern among all its samples
+4. **A text corpus with semantic meaning, URL, address in its attribute name**
+5. A text corpus with date time in its attribute name
+6. A structured representation among all its samples
+7. Avg. length above 25 for all samples, long texts
+8. A structured date/time representation among all its samples
+9. Email or url in samples
+
+
+
+| CATE                        | TOTAL | MATCHED | Mismatched | Abstained | Accuracy | Coverage |
+| --------------------------- | ----- | ------- | ---------- | --------- | -------- | -------- |
+| Usable With Extraction      | 650   | 581     | 559        | 69        | .5096    | .8938    |
+| Usable Directly Categorical | 2087  | 1482    | 823        | 605       | .6430    | .7101    |
+| Usable Directly Numeric     | 5063  | 5055    | 3459       | 8         | .5937    | .9984    |
+| Unusable                    | 891   | 856     | 576        | 35        | .5978    | .9607    |
+
+TODO:
+
+1. argmax deterministic random forest
+2. prob distribution cnn
+3. argmax deterministic cnn

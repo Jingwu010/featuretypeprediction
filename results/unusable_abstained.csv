@@ -1,0 +1,36 @@
+,y_act,Reason,Attribute_name,Total_val,num of dist_val,% nans,max_val,mean,min_val,std_dev,sample_1,sample_2,sample_3,sample_4,sample_5
+0,Unusable,l,number,842,37,95.48693587,99.0,30.5,2.0,27.31565004,44,,6,14,7
+1,Unusable,k,Sentence_Index,571153,25,0.0,24.0,3.685665662,0.0,3.046760317,0,1,2,3,4
+2,Unusable,k,Sentence_Index,667075,23,0.0,22.0,3.703688491,0.0,3.12248297,0,1,2,3,4
+3,Unusable,k,Sentence_Index,662207,27,0.0,26.0,3.697087165,0.0,3.129019403,0,1,2,3,4
+4,Unusable,k,s2p3wat2,9597,2,83.32812337,2.0,0.00125,0.0,0.049984373,,0,2,,0
+5,Unusable,k,ad7121,9597,7,23.99708242,0.0,0.0,0.0,0.0,0,1,1,0,intercropping
+6,Unusable,k,ad7211,9597,7,31.36396791,0.0,0.0,0.0,0.0,0,1,,0,.
+7,Unusable,k,ad7521,9597,7,23.99708242,0.0,0.0,0.0,0.0,0,1,0,1,intercropping
+8,Unusable,k,ad7624,9597,7,31.98916328,0.0,0.0,0.0,0.0,0,1,,0,.
+9,Unusable,k,Reference,158026,11327,91.36471214,114793.0,15311.60633,3.0,8087.324254,19344,19350,7954,40335,4689
+10,Unusable,k,isbn,10000,9300,7.0,0.0,0.0,0.0,0.0,439023483,439554934,316015849,61120081,743273567
+11,Unusable,k,isbn13,10000,9153,5.85,9790010000000.0,9755040000000.0,195170342.0,442838000000.0,9780440000000,9780440000000,9780320000000,9780060000000,9780740000000
+12,Unusable,k,Sentence #,1048575,47959,,0.0,0.0,0.0,0.0,Sentence: 1,,Sentence: 2,Sentence: 3,Sentence: 4
+13,Unusable,l,ZoneDist4,277131,5,,0.0,0.0,0.0,0.0,,R7A,R6B,R6A,M1-4
+14,Unusable,l,ZoneDist4,89830,2,,0.0,0.0,0.0,0.0,,R5,R6A,R5,R6A
+15,Unusable,l,ZoneDist4,42958,5,,0.0,0.0,0.0,0.0,,R8A,R8B,C1-8A,C6-7
+16,Unusable,l,ZoneDist4,324403,6,,0.0,0.0,0.0,0.0,,R5,M3-1,R7B,R2
+17,Unusable,l,Description,841,809,,1212.0,1210.0,1209.0,1.303840481,1209,1209,1210,1211,1212
+18,Unusable,l,fee.required,5807,2,,1.0,0.0568279659999999,0.0,0.231513603,0,1,0,0,1
+19,Unusable,,time_series_code,11106,10952,,0.0,0.0,0.0,0.0,BOPGS_BAL_US_adj,BOPGS_EXP_US_adj,BOPGS_IMP_US_adj,BOPG_BAL_US,BOPG_EXP_US
+20,Unusable,,isocodes,18975,7902,,0.0,0.0,0.0,0.0,,aiw,aay,aas,kbt
+21,Unusable,,hid,23243,8438,,0.0,0.0,0.0,0.0,,aiz,aiw,aay,aas
+22,Unusable,,MOTIF_NAME,65188,2,,0.0,0.0,0.0,0.0,,Egr1:MA0341.1,FOXA1:MA0546.1,Egr1:MA0341.1,
+23,Unusable,,MOTIF_SCORE_CHANGE,65188,2,,-0.063,-0.08,-0.097,0.017,,-0.063,-0.097,-0.097,-0.063
+24,Unusable,l,q17HirChaNoDiversCandidates,25090,2,,0.0,0.0,0.0,0.0,,Not enough diverse candidates,,Not enough diverse candidates,Not enough diverse candidates
+25,Unusable,l,q21CoreCompDatabaseDesign,25090,2,,0.0,0.0,0.0,0.0,,,Database Design,Database Design,Database Design
+26,Unusable,l,q22LangProfJava,25090,2,,0.0,0.0,0.0,0.0,,Java,,Java,Java
+27,Unusable,l,q22LangProfPython,25090,2,,0.0,0.0,0.0,0.0,,,Python,Python,Python
+28,Unusable,l,q22LangProfClojure,25090,2,,0.0,0.0,0.0,0.0,,,Clojure,Clojure,Clojure
+29,Unusable,l,q23FrameBackboneDotJS,25090,2,,0.0,0.0,0.0,0.0,,,Backbone.js,Backbone.js,Backbone.js
+30,Unusable,l,q23FrameStruts,25090,2,,0.0,0.0,0.0,0.0,,,Struts,Struts,Struts
+31,Unusable,l,q23FrameDjango,25090,2,,0.0,0.0,0.0,0.0,,,Django,Django,Django
+32,Unusable,l,q23FramePadrino,25090,2,,0.0,0.0,0.0,0.0,,,Padrino,Padrino,Padrino
+33,Unusable,l,q23FrameRubyMotion,25090,2,,0.0,0.0,0.0,0.0,,,RubyMotion,RubyMotion,RubyMotion
+34,Unusable,i,2017 [YR2017],269,2,,0.0,0.0,0.0,0.0,..,,..,..,
