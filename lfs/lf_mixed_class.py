@@ -1,4 +1,3 @@
-from nltk.corpus import stopwords 
 from .helper import *
 import re
 

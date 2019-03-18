@@ -215,3 +215,36 @@ TODO:
 1. argmax deterministic random forest
 2. prob distribution cnn
 3. argmax deterministic cnn
+
+**2/26**
+
+1. The downstream model is highly dependent on the snorkel output?
+2. Should the CNN model output probabilities or category?
+3. What can I do to increase the labeling accuracy?
+4. Why snorkel model accuracy goes down? Refer to the table.
+
+
+
+
+
+| Categories | Noisy | Disc. Model | Model Acc. | ne   | md   | epoch |
+| ---------- | ----- | ----------- | ---------- | ---- | ---- | ---- |
+| 4          | 0.855 | 0.867       | 0.875      | 128 | 64 |20|
+| 4 | 0.855 | 0.848 | 0.846 | 128 | 64 |10|
+| 4 | 0.855 | 0.850 | 0.868 | 128 | 64 |50|
+| 4 | 0.855 | 0.855 | 0.875 | 128 | 128 |20|
+| 4 | 0.855 | 0.860 | 0.875 | 64 | 32 |20|
+| 4 | 0.855 | 0.864 | 0.885 | 32 | 32 |50|
+
+
+
+## Downstream model
+
+###1.  Train a random forest based on argmax of probabilistic data.
+
+<img src='imgs/randomforest.png'>
+
+The original probabilistic data has accuracy 0.68 by simply taking the argmax amongst all probabilities.
+
+A random forest learning model was learnt mapping input features (9 features) into deterministic labels. The best learnt model is 92% on testing with 0.66 real accuracy.
+

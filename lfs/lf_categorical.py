@@ -1,4 +1,5 @@
 from .helper import *
+from .lf_numerical import lf_sample_cast_to_float, lf_cast_to_numbers
 
 def lf_binary_category(row):
     # Case e. Yes/No type values, including binary 0/1 answers
@@ -123,4 +124,31 @@ def lf_dist_num_percentage(row):
     dist_val = row['num of dist_val']
     if dist_val > 1 and  (dist_val/total_val) < 0.0005 and sum(samples_non_digits) > 2:
         return 1
+    return 0
+
+def lf_same_len_num_lt(row):
+    samples = get_samples(row)
+    if lf_sample_cast_to_float(row):
+        return 0
+    sample_len = [len(sample) for sample in samples]
+    sample_len_min = sum(lens<=2 for lens in sample_len)
+    if len(set(sample_len)) < 2 and sample_len_min>3:
+        return 3
+    return 0
+
+def lf_same_len_string_lt(row):
+    samples = get_samples(row)
+    if lf_cast_to_numbers(row):
+        return 0
+    sample_len = [len(sample) for sample in samples]
+    sample_len_min = sum(lens<=10 for lens in sample_len)
+    if len(set(sample_len)) < 2 and sample_len_min>3:
+        return 3
+    return 0
+
+def lf_max_eq_dist(row):
+    if row['num of dist_val'] == 1 or row['num of dist_val'] == 0:
+        return 0
+    if row['max_val'] == row['num of dist_val']:
+        return 3
     return 0

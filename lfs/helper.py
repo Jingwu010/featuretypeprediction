@@ -1,8 +1,21 @@
 import numpy as np
 import pandas as pd
 
-categories = {'Usable Directly Categorical':1, 'Usable Directly Numeric':2, 'Usable With Extraction':3, 'Unusable':4, 'Context_Specific':5, 'None':0}
+categories = {'Usable Directly Categorical':    1, 
+              'Usable Directly Numeric':        2, 
+              'Usable With Extraction':         3, 
+              'Unusable':                       4, 
+              'Context_Specific':               5, 
+              'None':                           0
+              }
 
+categories_size = {'Context_Specific':              2050,
+                   'Unusable':                      891,
+                   'Usable Directly Categorical':   2087,
+                   'Usable Directly Numeric':       5063,
+                   'Usable With Extraction':        650
+                   }
+                   
 def label_mapper(row):
     x = row['y_act']
     try:
@@ -87,6 +100,7 @@ def test_lfs_onecategory(lfs, df, category):
     # output the abstained data samples and mismatched data samples
     
     cm = [0] * len(categories)
+    cid = categories[category]
     abstained = pd.DataFrame()
     mismatched = pd.DataFrame()
     if not isinstance(lfs, list):
@@ -99,9 +113,14 @@ def test_lfs_onecategory(lfs, df, category):
             predictions[i] = y_pred
         if sum(predictions) != 0:
             cm[categories[row.y_act]] += 1
-            if y_true != category:
+            if y_true != cid:
                 mismatched = mismatched.append(row)
         else:
-            if category == y_true:
+            if cid == y_true:
                 abstained = abstained.append(row)
-    return cm, abstained, mismatched
+    if category == 'Unusable':
+        accuracy = cm[cid]/sum(cm)
+    else:
+        accuracy = cm[cid]/(sum(cm)-cm[categories['Unusable']])
+    coverage = cm[cid]/categories_size[category]
+    return cm, abstained, mismatched, accuracy, coverage

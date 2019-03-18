@@ -1,6 +1,11 @@
 from .helper import *
 
 def lf_unusable(row):
+    if lf_unusable_dist(row) or lf_unusable_nans(row):
+        return 4
+    return 0  
+
+def lf_unusable_dist(row):
     # Case k. A number indicating the position of a record in its dataset table, e.g., serial number
     # Case l. An attribute that is likely the primary key in its dataset table, or an attribute whose values will almost surely be unique for all records in its dataset table but is not a numeric feature
     # PRIORITY: 1

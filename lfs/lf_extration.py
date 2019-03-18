@@ -1,5 +1,6 @@
 import re
 from .helper import *
+from .lf_numerical import lf_cast_to_numbers
 
 def lf_extractable_units(row):
     # Case b. A number present along with unit of measure string
@@ -167,16 +168,16 @@ def lf_extractable_name(row):
     # Case c. A text corpus with semantic meaning, URL, address
     # PRIORITY: 2
     # e.g., review text, remarks text,
-    # [ 51.,  16., 122.,  32.,   8.]
+    # [0, 84, 61, 182, 52, 11]
     
 
     # [TODO] add more meaningful semantic attribute key words
     # Most of extractable should fall into this check
     extractable_names = ['url',
+                         'link',
                          'content',
                          'comment',
                          'address',
-                         'note',
                          'title',
                          'text',
                          'description',
@@ -185,9 +186,8 @@ def lf_extractable_name(row):
                          'remark',
                          'measure',
                          'other',
-                         'data',
-                         'word',
-                         'reason']
+                         'reason',
+                         'location']
     for name in extractable_names:
         if name in str(row['Attribute_name']).lower():
             return 3
@@ -295,5 +295,15 @@ def lf_extractable_email_url(row):
     # At least 3/5 records should match the regex
     # Records comes from non - NaN samples
     if flag > 2:
+        return 3
+    return 0
+
+def lf_same_len_string(row):
+    samples = get_samples(row)
+    if lf_cast_to_numbers(row):
+        return 0
+    sample_len = [len(sample) for sample in samples]
+    sample_len_min = sum(lens>10 for lens in sample_len)
+    if len(set(sample_len)) < 2 and sample_len_min>3:
         return 3
     return 0
