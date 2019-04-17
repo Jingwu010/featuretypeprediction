@@ -4,6 +4,21 @@
 
 Build a training data creation framework, say, using Snorkel for automatic ML schema extraction from data files for predicting feature type based on attribute name, sample values, and statistics. Compare with recent work on manually labeled dataset.
 
+Talk on this project:
+
+https://docs.google.com/presentation/d/10WcjgF9gn27G3NHCuA87VFUsoimpPN60hMNQbwTMRdc/edit?usp=sharing
+
+## Abstract
+
+Machine learning(ML) engineers spend the majority of their time dealing with data pre-processing in order to fit the feature data into machine understandable data type, like numerical value or categorical value. However, one major step even before data pre-processing is understanding the feature data type. Traditionally, ML enigeers manually inspect the source file and specify the intended data type of each feature column. However, this is very time-consuming and expensive task in reality, and the problem goes worse when it comes with large data files. Here, we present a label creation framework which outputs the feature type by
+applying a set of labeling heuristics on feature data statistics. By comparing the performance of downstream model trained using programmatically generated feature type with that using manually labeled feature type, it turns out the label creation framework has significantly speed up the labeling process (months to days development efforts) with lower cost and the downstream model trained using generated feature type has comparable accuracy than that using manually labeled feature type, 87% compared to 93%.
+
+## Workflow
+
+<img src="imgs/workflow.png">
+
+<img src='imgs/detail.png'>
+
 ## Meeting:
 
 Wednesday 1.30pm.
